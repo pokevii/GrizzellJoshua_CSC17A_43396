@@ -1,0 +1,167 @@
+\hypertarget{class_animal}{}\doxysection{Animal Class Reference}
+\label{class_animal}\index{Animal@{Animal}}
+
+
+{\ttfamily \#include $<$Animal.\+h$>$}
+
+Inheritance diagram for Animal\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_animal}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_animal_a8fc302697d2b21c7a367d3984ad87752}{setup}} (\mbox{\hyperlink{class_player_data}{Player\+Data}} pd)=0
+\item 
+virtual void \mbox{\hyperlink{class_animal_aac352efabe3b774cd5f203ce60ae3400}{speak}} ()=0
+\item 
+virtual void \mbox{\hyperlink{class_animal_a6c441529cda6f020adc4f3ab2dfb6900}{status}} ()=0
+\item 
+virtual void \mbox{\hyperlink{class_animal_a5c93da25ffe92273a13c86e44edcf716}{pet}} ()=0
+\item 
+virtual void \mbox{\hyperlink{class_animal_a5d5be8707eb5f6dfa41ce405ae4e1cc3}{trick}} ()=0
+\item 
+char $\ast$ \mbox{\hyperlink{class_animal_acfde3a0d140b97ed70abf6ceabbee49c}{get\+Name}} ()
+\item 
+int \mbox{\hyperlink{class_animal_aeffc626e9cdad0937b5ad7829ad7a741}{get\+Type}} ()
+\item 
+void \mbox{\hyperlink{class_animal_afb77c535f4bdcf47b4a96831f7104498}{set\+Name}} (char $\ast$n)
+\item 
+void \mbox{\hyperlink{class_animal_a5125b8c5d48f7682c64b18c7587fefda}{set\+Type}} (int t)
+\item 
+void \mbox{\hyperlink{class_animal_a1b90bb10d62cc27ef45d8a72731d9936}{pet\+Menu}} (\mbox{\hyperlink{class_player_data}{Player\+Data}} pd)
+\item 
+void \mbox{\hyperlink{class_animal_afbf3e38418b251d30bf38a0c58051d47}{clear}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+char \mbox{\hyperlink{class_animal_a2a92c8c89948c14ffcb6cf602d867f74}{name}} \mbox{[}25\mbox{]}
+\item 
+int \mbox{\hyperlink{class_animal_ac03a7dcd5102ab233956f2493979eba7}{pet\+Type}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_animal_aeaa5da99f123204b181bc725652d20f5}{Player\+Data}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_animal_afbf3e38418b251d30bf38a0c58051d47}\label{class_animal_afbf3e38418b251d30bf38a0c58051d47}} 
+\index{Animal@{Animal}!clear@{clear}}
+\index{clear@{clear}!Animal@{Animal}}
+\doxysubsubsection{\texorpdfstring{clear()}{clear()}}
+{\footnotesize\ttfamily void Animal\+::clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_animal_acfde3a0d140b97ed70abf6ceabbee49c}\label{class_animal_acfde3a0d140b97ed70abf6ceabbee49c}} 
+\index{Animal@{Animal}!getName@{getName}}
+\index{getName@{getName}!Animal@{Animal}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily char$\ast$ Animal\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_animal_aeffc626e9cdad0937b5ad7829ad7a741}\label{class_animal_aeffc626e9cdad0937b5ad7829ad7a741}} 
+\index{Animal@{Animal}!getType@{getType}}
+\index{getType@{getType}!Animal@{Animal}}
+\doxysubsubsection{\texorpdfstring{getType()}{getType()}}
+{\footnotesize\ttfamily int Animal\+::get\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_animal_a5c93da25ffe92273a13c86e44edcf716}\label{class_animal_a5c93da25ffe92273a13c86e44edcf716}} 
+\index{Animal@{Animal}!pet@{pet}}
+\index{pet@{pet}!Animal@{Animal}}
+\doxysubsubsection{\texorpdfstring{pet()}{pet()}}
+{\footnotesize\ttfamily virtual void Animal\+::pet (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_dog_a6d9c04d3b9a5e1dc8ffadc62c7dc015a}{Dog}}, and \mbox{\hyperlink{class_cat_ad8b2b6ece352af8e2e72699735e89e30}{Cat}}.
+
+\mbox{\Hypertarget{class_animal_a1b90bb10d62cc27ef45d8a72731d9936}\label{class_animal_a1b90bb10d62cc27ef45d8a72731d9936}} 
+\index{Animal@{Animal}!petMenu@{petMenu}}
+\index{petMenu@{petMenu}!Animal@{Animal}}
+\doxysubsubsection{\texorpdfstring{petMenu()}{petMenu()}}
+{\footnotesize\ttfamily void Animal\+::pet\+Menu (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_player_data}{Player\+Data}}}]{pd }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_animal_afb77c535f4bdcf47b4a96831f7104498}\label{class_animal_afb77c535f4bdcf47b4a96831f7104498}} 
+\index{Animal@{Animal}!setName@{setName}}
+\index{setName@{setName}!Animal@{Animal}}
+\doxysubsubsection{\texorpdfstring{setName()}{setName()}}
+{\footnotesize\ttfamily void Animal\+::set\+Name (\begin{DoxyParamCaption}\item[{char $\ast$}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_animal_a5125b8c5d48f7682c64b18c7587fefda}\label{class_animal_a5125b8c5d48f7682c64b18c7587fefda}} 
+\index{Animal@{Animal}!setType@{setType}}
+\index{setType@{setType}!Animal@{Animal}}
+\doxysubsubsection{\texorpdfstring{setType()}{setType()}}
+{\footnotesize\ttfamily void Animal\+::set\+Type (\begin{DoxyParamCaption}\item[{int}]{t }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_animal_a8fc302697d2b21c7a367d3984ad87752}\label{class_animal_a8fc302697d2b21c7a367d3984ad87752}} 
+\index{Animal@{Animal}!setup@{setup}}
+\index{setup@{setup}!Animal@{Animal}}
+\doxysubsubsection{\texorpdfstring{setup()}{setup()}}
+{\footnotesize\ttfamily virtual void Animal\+::setup (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_player_data}{Player\+Data}}}]{pd }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_dog_aef26a0fe90d1ff7be1a2a1a2bef0a706}{Dog}}, and \mbox{\hyperlink{class_cat_abc329de7c9a62d252bf817bbbe5851e5}{Cat}}.
+
+\mbox{\Hypertarget{class_animal_aac352efabe3b774cd5f203ce60ae3400}\label{class_animal_aac352efabe3b774cd5f203ce60ae3400}} 
+\index{Animal@{Animal}!speak@{speak}}
+\index{speak@{speak}!Animal@{Animal}}
+\doxysubsubsection{\texorpdfstring{speak()}{speak()}}
+{\footnotesize\ttfamily virtual void Animal\+::speak (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_dog_abbb305234f3e49ed04a54fcabbd733ad}{Dog}}, and \mbox{\hyperlink{class_cat_ae953572e3855b2f3df54117d9e5f287d}{Cat}}.
+
+\mbox{\Hypertarget{class_animal_a6c441529cda6f020adc4f3ab2dfb6900}\label{class_animal_a6c441529cda6f020adc4f3ab2dfb6900}} 
+\index{Animal@{Animal}!status@{status}}
+\index{status@{status}!Animal@{Animal}}
+\doxysubsubsection{\texorpdfstring{status()}{status()}}
+{\footnotesize\ttfamily virtual void Animal\+::status (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_dog_a698876acada3645f03fc04f844bf39ce}{Dog}}, and \mbox{\hyperlink{class_cat_a0e362854ad2e4838a893cc91da3c145b}{Cat}}.
+
+\mbox{\Hypertarget{class_animal_a5d5be8707eb5f6dfa41ce405ae4e1cc3}\label{class_animal_a5d5be8707eb5f6dfa41ce405ae4e1cc3}} 
+\index{Animal@{Animal}!trick@{trick}}
+\index{trick@{trick}!Animal@{Animal}}
+\doxysubsubsection{\texorpdfstring{trick()}{trick()}}
+{\footnotesize\ttfamily virtual void Animal\+::trick (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_dog_ac43abce8cfefa308ddce49056a504c6b}{Dog}}, and \mbox{\hyperlink{class_cat_a05567f2ad8767e84ac870400188330eb}{Cat}}.
+
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_animal_aeaa5da99f123204b181bc725652d20f5}\label{class_animal_aeaa5da99f123204b181bc725652d20f5}} 
+\index{Animal@{Animal}!PlayerData@{PlayerData}}
+\index{PlayerData@{PlayerData}!Animal@{Animal}}
+\doxysubsubsection{\texorpdfstring{PlayerData}{PlayerData}}
+{\footnotesize\ttfamily friend class \mbox{\hyperlink{class_player_data}{Player\+Data}}\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_animal_a2a92c8c89948c14ffcb6cf602d867f74}\label{class_animal_a2a92c8c89948c14ffcb6cf602d867f74}} 
+\index{Animal@{Animal}!name@{name}}
+\index{name@{name}!Animal@{Animal}}
+\doxysubsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily char Animal\+::name\mbox{[}25\mbox{]}\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_animal_ac03a7dcd5102ab233956f2493979eba7}\label{class_animal_ac03a7dcd5102ab233956f2493979eba7}} 
+\index{Animal@{Animal}!petType@{petType}}
+\index{petType@{petType}!Animal@{Animal}}
+\doxysubsubsection{\texorpdfstring{petType}{petType}}
+{\footnotesize\ttfamily int Animal\+::pet\+Type\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_animal_8h}{Animal.\+h}}\end{DoxyCompactItemize}

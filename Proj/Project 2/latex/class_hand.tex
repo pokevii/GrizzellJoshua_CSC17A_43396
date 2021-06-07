@@ -1,0 +1,188 @@
+\hypertarget{class_hand}{}\doxysection{Hand Class Reference}
+\label{class_hand}\index{Hand@{Hand}}
+
+
+{\ttfamily \#include $<$Hand.\+h$>$}
+
+Inheritance diagram for Hand\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_hand}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_hand_aa733faf150351c640fc7d1bf460b07e9}{Hand}} ()
+\item 
+\mbox{\hyperlink{class_hand_aa3fe76cfd03337df44a1a38e2ef5a628}{Hand}} (string c\mbox{[}10\mbox{]}, int d, int s)
+\item 
+\mbox{\hyperlink{class_hand_ab976de4e843e535feb77349d574370cc}{Hand}} (const \mbox{\hyperlink{class_hand}{Hand}} \&h)
+\item 
+int \mbox{\hyperlink{class_hand_afbc2b78a86e353c06b1ae49dabaebdc2}{get\+Drwn}} ()
+\item 
+int \mbox{\hyperlink{class_hand_a2901266e78bd72fa660b7f31f075b5e8}{get\+Scre}} ()
+\item 
+string \mbox{\hyperlink{class_hand_a65d0b8a21211ae502c92df4b68e39be3}{get\+Card}} (int index)
+\item 
+void \mbox{\hyperlink{class_hand_a2ed847a6ef1ceb426498d618eaae011f}{set\+Drwn}} (int d)
+\item 
+void \mbox{\hyperlink{class_hand_a2acbdd7f7f048fad40571a7c36af30d2}{set\+Scre}} (int s)
+\item 
+void \mbox{\hyperlink{class_hand_a5d87c2ff39e8b04267cf57c9a1adfdd0}{set\+Card}} (string card, int index)
+\item 
+string \mbox{\hyperlink{class_hand_af419e9c0f24252afd604020f846cf931}{drw\+Card}} ()
+\item 
+int \mbox{\hyperlink{class_hand_a6d50e4a9bc5e6b78c4f9ff2b5f085588}{card\+Val}} (string str\+Card)
+\item 
+bool \mbox{\hyperlink{class_hand_a6a47251dd6b8a905aa70ecb49de8d607}{repeat}} (int o, string card, string $\ast$deck)
+\item 
+\mbox{\hyperlink{class_hand}{Hand}} \mbox{\hyperlink{class_hand_a1d560754f79f5c53926b40d81537d1d2}{operator++}} (int)
+\item 
+\mbox{\hyperlink{class_hand}{Hand}} \mbox{\hyperlink{class_hand_a0e37079a45f8fd1601b55291713ce32b}{operator-\/-\/}} (int)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_hand_a6474d85015b527cbff2598dd3d909a15}{cards}} \mbox{[}10\mbox{]}
+\item 
+int \mbox{\hyperlink{class_hand_ac8746e6585e0a8a844bd135ed8e1cb11}{drawn}}
+\item 
+int \mbox{\hyperlink{class_hand_a8315d95b9b1e8777661edc121fcdaaab}{score}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static const string \mbox{\hyperlink{class_hand_a853c01fbe4d815beacc86e93eb3a4acc}{suit}} \mbox{[}4\mbox{]} = \{\char`\"{} of Clubs\char`\"{}, \char`\"{} of Hearts\char`\"{}, \char`\"{} of Spades\char`\"{}, \char`\"{} of Diamonds\char`\"{}\}
+\item 
+static const string \mbox{\hyperlink{class_hand_a29f2b6d98c545b7d6a137566f88b0a97}{face}} \mbox{[}13\mbox{]} = \{\char`\"{}Ace\char`\"{}, \char`\"{}Two\char`\"{}, \char`\"{}Three\char`\"{}, \char`\"{}Four\char`\"{}, \char`\"{}Five\char`\"{}, \char`\"{}Six\char`\"{}, \char`\"{}Seven\char`\"{}, \char`\"{}Eight\char`\"{}, \char`\"{}Nine\char`\"{}, \char`\"{}Ten\char`\"{}, \char`\"{}Jack\char`\"{}, \char`\"{}Queen\char`\"{}, \char`\"{}King\char`\"{}\}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_hand_aa733faf150351c640fc7d1bf460b07e9}\label{class_hand_aa733faf150351c640fc7d1bf460b07e9}} 
+\index{Hand@{Hand}!Hand@{Hand}}
+\index{Hand@{Hand}!Hand@{Hand}}
+\doxysubsubsection{\texorpdfstring{Hand()}{Hand()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Hand\+::\+Hand (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_hand_aa3fe76cfd03337df44a1a38e2ef5a628}\label{class_hand_aa3fe76cfd03337df44a1a38e2ef5a628}} 
+\index{Hand@{Hand}!Hand@{Hand}}
+\index{Hand@{Hand}!Hand@{Hand}}
+\doxysubsubsection{\texorpdfstring{Hand()}{Hand()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Hand\+::\+Hand (\begin{DoxyParamCaption}\item[{string}]{c\mbox{[}10\mbox{]},  }\item[{int}]{d,  }\item[{int}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_hand_ab976de4e843e535feb77349d574370cc}\label{class_hand_ab976de4e843e535feb77349d574370cc}} 
+\index{Hand@{Hand}!Hand@{Hand}}
+\index{Hand@{Hand}!Hand@{Hand}}
+\doxysubsubsection{\texorpdfstring{Hand()}{Hand()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Hand\+::\+Hand (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_hand}{Hand}} \&}]{h }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_hand_a6d50e4a9bc5e6b78c4f9ff2b5f085588}\label{class_hand_a6d50e4a9bc5e6b78c4f9ff2b5f085588}} 
+\index{Hand@{Hand}!cardVal@{cardVal}}
+\index{cardVal@{cardVal}!Hand@{Hand}}
+\doxysubsubsection{\texorpdfstring{cardVal()}{cardVal()}}
+{\footnotesize\ttfamily int Hand\+::card\+Val (\begin{DoxyParamCaption}\item[{string}]{str\+Card }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_hand_af419e9c0f24252afd604020f846cf931}\label{class_hand_af419e9c0f24252afd604020f846cf931}} 
+\index{Hand@{Hand}!drwCard@{drwCard}}
+\index{drwCard@{drwCard}!Hand@{Hand}}
+\doxysubsubsection{\texorpdfstring{drwCard()}{drwCard()}}
+{\footnotesize\ttfamily string Hand\+::drw\+Card (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_hand_a65d0b8a21211ae502c92df4b68e39be3}\label{class_hand_a65d0b8a21211ae502c92df4b68e39be3}} 
+\index{Hand@{Hand}!getCard@{getCard}}
+\index{getCard@{getCard}!Hand@{Hand}}
+\doxysubsubsection{\texorpdfstring{getCard()}{getCard()}}
+{\footnotesize\ttfamily string Hand\+::get\+Card (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_hand_afbc2b78a86e353c06b1ae49dabaebdc2}\label{class_hand_afbc2b78a86e353c06b1ae49dabaebdc2}} 
+\index{Hand@{Hand}!getDrwn@{getDrwn}}
+\index{getDrwn@{getDrwn}!Hand@{Hand}}
+\doxysubsubsection{\texorpdfstring{getDrwn()}{getDrwn()}}
+{\footnotesize\ttfamily int Hand\+::get\+Drwn (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_hand_a2901266e78bd72fa660b7f31f075b5e8}\label{class_hand_a2901266e78bd72fa660b7f31f075b5e8}} 
+\index{Hand@{Hand}!getScre@{getScre}}
+\index{getScre@{getScre}!Hand@{Hand}}
+\doxysubsubsection{\texorpdfstring{getScre()}{getScre()}}
+{\footnotesize\ttfamily int Hand\+::get\+Scre (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_hand_a1d560754f79f5c53926b40d81537d1d2}\label{class_hand_a1d560754f79f5c53926b40d81537d1d2}} 
+\index{Hand@{Hand}!operator++@{operator++}}
+\index{operator++@{operator++}!Hand@{Hand}}
+\doxysubsubsection{\texorpdfstring{operator++()}{operator++()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_hand}{Hand}} Hand\+::operator++ (\begin{DoxyParamCaption}\item[{int}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_hand_a0e37079a45f8fd1601b55291713ce32b}\label{class_hand_a0e37079a45f8fd1601b55291713ce32b}} 
+\index{Hand@{Hand}!operator-\/-\/@{operator-\/-\/}}
+\index{operator-\/-\/@{operator-\/-\/}!Hand@{Hand}}
+\doxysubsubsection{\texorpdfstring{operator-\/-\/()}{operator--()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_hand}{Hand}} Hand\+::operator-\/-\/ (\begin{DoxyParamCaption}\item[{int}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_hand_a6a47251dd6b8a905aa70ecb49de8d607}\label{class_hand_a6a47251dd6b8a905aa70ecb49de8d607}} 
+\index{Hand@{Hand}!repeat@{repeat}}
+\index{repeat@{repeat}!Hand@{Hand}}
+\doxysubsubsection{\texorpdfstring{repeat()}{repeat()}}
+{\footnotesize\ttfamily bool Hand\+::repeat (\begin{DoxyParamCaption}\item[{int}]{o,  }\item[{string}]{card,  }\item[{string $\ast$}]{deck }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_hand_a5d87c2ff39e8b04267cf57c9a1adfdd0}\label{class_hand_a5d87c2ff39e8b04267cf57c9a1adfdd0}} 
+\index{Hand@{Hand}!setCard@{setCard}}
+\index{setCard@{setCard}!Hand@{Hand}}
+\doxysubsubsection{\texorpdfstring{setCard()}{setCard()}}
+{\footnotesize\ttfamily void Hand\+::set\+Card (\begin{DoxyParamCaption}\item[{string}]{card,  }\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_hand_a2ed847a6ef1ceb426498d618eaae011f}\label{class_hand_a2ed847a6ef1ceb426498d618eaae011f}} 
+\index{Hand@{Hand}!setDrwn@{setDrwn}}
+\index{setDrwn@{setDrwn}!Hand@{Hand}}
+\doxysubsubsection{\texorpdfstring{setDrwn()}{setDrwn()}}
+{\footnotesize\ttfamily void Hand\+::set\+Drwn (\begin{DoxyParamCaption}\item[{int}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_hand_a2acbdd7f7f048fad40571a7c36af30d2}\label{class_hand_a2acbdd7f7f048fad40571a7c36af30d2}} 
+\index{Hand@{Hand}!setScre@{setScre}}
+\index{setScre@{setScre}!Hand@{Hand}}
+\doxysubsubsection{\texorpdfstring{setScre()}{setScre()}}
+{\footnotesize\ttfamily void Hand\+::set\+Scre (\begin{DoxyParamCaption}\item[{int}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_hand_a6474d85015b527cbff2598dd3d909a15}\label{class_hand_a6474d85015b527cbff2598dd3d909a15}} 
+\index{Hand@{Hand}!cards@{cards}}
+\index{cards@{cards}!Hand@{Hand}}
+\doxysubsubsection{\texorpdfstring{cards}{cards}}
+{\footnotesize\ttfamily string Hand\+::cards\mbox{[}10\mbox{]}\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_hand_ac8746e6585e0a8a844bd135ed8e1cb11}\label{class_hand_ac8746e6585e0a8a844bd135ed8e1cb11}} 
+\index{Hand@{Hand}!drawn@{drawn}}
+\index{drawn@{drawn}!Hand@{Hand}}
+\doxysubsubsection{\texorpdfstring{drawn}{drawn}}
+{\footnotesize\ttfamily int Hand\+::drawn\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_hand_a29f2b6d98c545b7d6a137566f88b0a97}\label{class_hand_a29f2b6d98c545b7d6a137566f88b0a97}} 
+\index{Hand@{Hand}!face@{face}}
+\index{face@{face}!Hand@{Hand}}
+\doxysubsubsection{\texorpdfstring{face}{face}}
+{\footnotesize\ttfamily const string Hand\+::face = \{\char`\"{}Ace\char`\"{}, \char`\"{}Two\char`\"{}, \char`\"{}Three\char`\"{}, \char`\"{}Four\char`\"{}, \char`\"{}Five\char`\"{}, \char`\"{}Six\char`\"{}, \char`\"{}Seven\char`\"{}, \char`\"{}Eight\char`\"{}, \char`\"{}Nine\char`\"{}, \char`\"{}Ten\char`\"{}, \char`\"{}Jack\char`\"{}, \char`\"{}Queen\char`\"{}, \char`\"{}King\char`\"{}\}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_hand_a8315d95b9b1e8777661edc121fcdaaab}\label{class_hand_a8315d95b9b1e8777661edc121fcdaaab}} 
+\index{Hand@{Hand}!score@{score}}
+\index{score@{score}!Hand@{Hand}}
+\doxysubsubsection{\texorpdfstring{score}{score}}
+{\footnotesize\ttfamily int Hand\+::score\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_hand_a853c01fbe4d815beacc86e93eb3a4acc}\label{class_hand_a853c01fbe4d815beacc86e93eb3a4acc}} 
+\index{Hand@{Hand}!suit@{suit}}
+\index{suit@{suit}!Hand@{Hand}}
+\doxysubsubsection{\texorpdfstring{suit}{suit}}
+{\footnotesize\ttfamily const string Hand\+::suit = \{\char`\"{} of Clubs\char`\"{}, \char`\"{} of Hearts\char`\"{}, \char`\"{} of Spades\char`\"{}, \char`\"{} of Diamonds\char`\"{}\}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_hand_8h}{Hand.\+h}}\item 
+\mbox{\hyperlink{_hand_8cpp}{Hand.\+cpp}}\end{DoxyCompactItemize}
